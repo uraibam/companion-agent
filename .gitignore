@@ -1,0 +1,4 @@
+*.db
+.env
+.secrets
+__pycache__/

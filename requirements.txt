@@ -1,0 +1,3 @@
+streamlit
+requests
+openai         # Or Groq-compatible if you're using a proxy

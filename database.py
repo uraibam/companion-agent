@@ -2,7 +2,7 @@
 import sqlite3
 from datetime import datetime
 
-DB_NAME = "companion_agent.db"
+DB_NAME = os.path.join(os.path.dirname(__file__), "companion_agent.db")
 
 # Get today's date in consistent format
 def today():
